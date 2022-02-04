@@ -6,7 +6,8 @@ import pyautogui as p
 import numpy as np
 
 #create resolution
-rs = (1700,1000)
+#rs = (1700,1000)
+rs=p.size()
 
 
 #filename in which we store recording 
