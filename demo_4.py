@@ -33,7 +33,7 @@ while True:
     f = c.cvtColor(f, c.COLOR_BGR2RGB)
     output.write(f)
     c.imshow("LIve_Recording", f)
-    if c.waitKey(1) ==ord("q"):
+    if c.waitKey(0) ==ord("q"):
         break
 output.release()
 c.destroyAllWindows()
